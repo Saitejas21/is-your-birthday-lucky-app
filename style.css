@@ -11,7 +11,7 @@
   }
   
   * {
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Circular Spotify Tx T Black", sans-serif;
   }
   
   .header {
@@ -19,6 +19,7 @@
     margin-top: none;
     background-color: #6EE7B7;
     padding: 2rem;
+    border-radius: 1rem;
   }
   
   .container {
@@ -31,6 +32,9 @@
     display: block;
     margin-top: 1rem;
     width: 100%;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1rem;
   }
   
   label {
@@ -44,7 +48,7 @@
     border: 1px solid black;
     font-size: large;
     margin: 1rem ;
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
   
   #calculate-number {
@@ -76,6 +80,7 @@
     border-color: var(--black);
     border-width: medium;
     border-radius: 5px;
+    background-color: white;
   }
   
   /* footer */
@@ -91,6 +96,8 @@
   footer p {
     font-size: large;
     text-align: center;
+    background-color: #6EE7B7;
+    padding: 1rem;
   }
   
   .footer-list {
